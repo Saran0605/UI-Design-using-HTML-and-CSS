@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300; /* makes it thinner */
+}
+#sec1 {
+  background-color: #3498db;
+  height: 700px;
+}
+#sec1 nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-left: 150px;
+  padding-top: 9px;
+}
+
+#sec2 {
+  display: flex;
+  width: 1500px;
+}
+
+#imgdiv img {
+  width: 700px;
+  height: 600px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+#sec2 h1 {
+  color: white;
+  flex-wrap: wrap;
+  padding-top: 250px;
+  padding-left: 160px;
+  font-size: 40px;
+}
+
+#emailbox input {
+  padding: 10px;
+  width: 400px;
+  margin-right: 3px;
+}
+#emailbox button {
+  padding: 10px;
+  background-color: orange;
+  color: white;
+}
+
+#sec3{
+  background-color: #f2f2f2;
+  height: 2500px;
+  padding: 100px 20px; /* spacing around text */
+  text-align: center;
+}
+
+#sec3 h1 {
+  font-size: 50px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+#sec3 p {
+  font-size: 25px;
+  color: #7d8a8d; /* lighter gray text */
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+#sec3 img{
+    height: 300px;
+    width: 400px;
+}
+
+#reflayout{
+    display: flex;
+}
+#sec4 img{
+    height: 380px;
+    width: 400px;
+
+}
+#contact{
+  background-color: #f2f2f2;
+  text-align: center;
+  height: 400px;
+}
+#contact input{
+    display: block;
+    margin-left: 30%;
+    width: 600px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#contact button{
+    padding: 20px;
+    width: 200px;
+    margin-top: 10px;
+
+}
